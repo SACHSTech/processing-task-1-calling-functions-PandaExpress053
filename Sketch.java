@@ -20,7 +20,7 @@ public class Sketch extends PApplet {
    * Called once at the beginning of execution.  Add initial set up
    * values here i.e background, stroke, fill etc.
    */
-  
+
   public void setup() {
     //Creating blue background
     background(0, 0, 255);
@@ -32,7 +32,7 @@ public class Sketch extends PApplet {
   public void draw() {
     //Creating green foreground
     fill(0, 255, 0);
-    rect(0,300,400,400);
+    rect(0, 300, 400, 400);
 
     //Creating gray square house base
     fill(150, 150, 150);
@@ -40,10 +40,10 @@ public class Sketch extends PApplet {
 
     //Creating white triangle roof
     fill(255, 255, 255);
-    triangle(150,135,250, 80, 350, 135);
+    triangle(150, 135, 250, 80, 350, 135);
 
     //Creating circular yellow sun in top left corner
-    fill(255,255,150);
+    fill(255, 255, 150);
     ellipse(25, 25, 150, 150);
   }
   // define other methods down here.
