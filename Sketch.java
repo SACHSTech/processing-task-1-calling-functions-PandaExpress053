@@ -1,5 +1,7 @@
 import processing.core.PApplet;
 
+
+
 public class Sketch extends PApplet {
 	
 	
@@ -16,7 +18,9 @@ public class Sketch extends PApplet {
    * values here i.e background, stroke, fill etc.
    */
   public void setup() {
-    background(210, 255, 173);
+    //Creating blue background
+    background(0, 0, 255);
+    
   }
 
   /**
@@ -24,13 +28,21 @@ public class Sketch extends PApplet {
    */
   public void draw() {
 	  
-	// sample code, delete this stuff
-    stroke(128);
-    line(150, 25, 270, 350);  
+    //Creating green foreground
+    fill(0, 255, 0);
+    rect(0,300,400,400);
 
-    stroke(255);
-    line(50, 125, 70, 50);  
+    //Creating gray square house base
+    fill(150, 150, 150);
+    rect(150, 335, 200, -200);
+
+    //Creating white triangle roof
+    fill(255, 255, 255);
+    triangle(150,135,250, 80, 350, 135);
+
+    //Creating circular yellow sun in top left corner
+    fill(255,255,150);
+    ellipse(25, 25, 150, 150);
   }
-  
   // define other methods down here.
 }

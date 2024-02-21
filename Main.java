@@ -2,7 +2,8 @@ import processing.core.PApplet;
 
 /**
  * Main class to execute sketch
- * @author 
+ * Creates a picture of a house, grass, and a sun
+ * @E.Fung
  *
  */
 class Main {
