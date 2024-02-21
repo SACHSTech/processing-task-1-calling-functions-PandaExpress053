@@ -20,6 +20,7 @@ public class Sketch extends PApplet {
    * Called once at the beginning of execution.  Add initial set up
    * values here i.e background, stroke, fill etc.
    */
+  
   public void setup() {
     //Creating blue background
     background(0, 0, 255);
