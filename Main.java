@@ -3,8 +3,7 @@ import processing.core.PApplet;
 /**
  * Main class to execute sketch
  * Creates a picture of a house, grass, and a sun
- * @E.Fung
- *
+ * @E.Fung *
  */
 class Main {
   public static void main(String[] args) {
