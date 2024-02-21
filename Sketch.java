@@ -23,14 +23,12 @@ public class Sketch extends PApplet {
   public void setup() {
     //Creating blue background
     background(0, 0, 255);
-    
   }
 
   /**
    * Called repeatedly, anything drawn to the screen goes here
    */
   public void draw() {
-	  
     //Creating green foreground
     fill(0, 255, 0);
     rect(0,300,400,400);
